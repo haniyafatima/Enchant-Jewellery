@@ -1,0 +1,344 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+  :root {
+    --logo-brown: #A4907C;
+    --logo-parchment: #F2E7D5;
+    --logo-mineshaft: #2D2727;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0 auto;
+    max-width: 2600px;
+    color: #2D2727;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    align-items: center;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.7)
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #2D2727;
+    margin: 30px;
+    /* padding: 5px 15px 10px 15px; */
+    text-align: center;
+  }
+
+  .nv:hover {
+    border-bottom: 1px solid #2D2727;
+  }
+
+  header {
+    text-align: center;
+    justify-content: center;
+    width: 95%;
+    height: 75vh;
+    background-image: url(../images/wedding4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header div {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #logo {
+    font-family: 'Dancing Script', cursive;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    padding-right: 500px;
+  }
+
+  .about {
+    /* background: rgb(164,144,124); */
+    /* background-color: #F2E7D5; */
+    /* background: linear-gradient(72deg, rgba(164,144,124,1) 28%, rgba(243,238,231,1) 100%); */
+    background: rgb(242, 231, 213);
+    background: linear-gradient(212deg, rgba(242, 231, 213, 1) 20%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #A4907C;
+    /* width: 55em; */
+    font-size: 20px;
+    text-align: left;
+    word-spacing: 5px;
+    line-height: 30px;
+    margin: 20px 30px 20px 30px;
+  }
+
+  .abt-txt {
+    background-color: #fff;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .about button {
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    border: 1px solid #2D2727;
+    margin: 20px;
+    background-color: #fff;
+    color: #2D2727;
+  }
+
+  .about button:hover {
+    background-color: #A4907C;
+    color: #fff;
+  }
+
+  .about img {
+    width: 25em;
+    border-radius: 5px;
+  }
+
+  .about h5 {
+    margin: 10px;
+  }
+
+  /* Services */
+
+  h2 {
+    font-family: 'Dancing Script';
+    font-size: 45px;
+  }
+
+  main {
+    color: #A4907C;
+    background-color: #fff;
+    padding: 0px 50px 50px 50px;
+    border-radius: 100px 50px 0px 0px;
+  }
+
+  .weddings,
+  .birthdays,
+  .parties,
+  .customized {
+    color: #2D2727;
+    text-align: center;
+    justify-content: center;
+    width: 99%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .weddings h2,
+  .birthdays h2,
+  .parties h2,
+  .customized h2 {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+
+  .weddings {
+    background-image: url(../images/img7.jpeg);
+  }
+
+  .birthdays {
+    background-image: url(../images/bday18.jpeg);
+  }
+
+  .parties {
+    background-image: url(../images/img3.jpg);
+  }
+
+  .customized {
+    background-image: url(../images/cust14.jpg);
+    background: cover;
+
+  }
+
+  .main-para {
+    margin-top: 40px 0px 40px 0px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  main img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0px 15px 0px 15px;
+  }
+
+  .tab-btn-bar {
+    width: 100%;
+    margin-bottom: 20px;
+    background: rgb(242, 231, 213);
+    background: linear-gradient(212deg, rgba(242, 231, 213, 1) 20%, rgba(255, 255, 255, 1) 100%);
+  }
+
+  .tab-btn-bar button {
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    background-color: #F2E7D5;
+    color: #2D2727;
+    font-family: 'Dancing Script';
+    font-size: 17px;
+  }
+
+  .tab-btn-bar button:hover {
+    background-color: #fff;
+  }
+
+  /* Contact */
+  .contact {
+    background-color: #A4907C;
+    color: #2D2727;
+    border-radius: 10px;
+    margin: 50px 200px 50px 200px;
+    padding: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact button {
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    background-color: #F2E7D5;
+    color: #2D2727;
+    font-size: 17px;
+  }
+
+  .contact button:hover {
+    background-color: #fff;
+  }
+
+  .contact span {
+    display: block;
+    margin: 10px 0px 10px 0px;
+  }
+
+  /* FOOTER */
+  footer {
+    background-color: #2D2727;
+    color: #A4907C;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #A4907C;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  . nv1:hover {
+    border-bottom: 1px solid #A4907C;
+  }
+
+  #footer-logo {
+    font-family: 'Dancing Script', cursive;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 25px;
+  }
+
+
+  /* media */
+  @media screen and (max-width: 1270px) {
+    #logo {
+      padding-right: 20px;
+    }
+
+    nav {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about {
+      flex-direction: column;
+    }
+
+  }
+
+  /* media */
+  @media screen and (max-width: 720px) {
+    #logo {
+      padding-right: 20px;
+    }
+
+    nav {
+      justify-content: center;
+      align-items: center;
+    }
+
+    header {
+      height: 60vh;
+    }
+
+    header div {
+      padding: 1px 5px 1px 5px;
+      margin: 15px;
+    }
+
+    .about {
+      flex-direction: column;
+    }
+
+    .about img {
+      width: 20em;
+      margin-top: 10px;
+    }
+
+    .contact {
+      padding: 100px;
+      margin: auto;
+    }
+
+  }
